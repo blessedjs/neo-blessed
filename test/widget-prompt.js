@@ -1,9 +1,10 @@
 var blessed = require('../');
+const path = require('path');
 
 var screen = blessed.screen({
   tput: true,
   smartCSR: true,
-  dump: __dirname + '/logs/prompt.log',
+  dump: path.join(__dirname, '/logs/prompt.log'),
   autoPadding: true,
   warnings: true
 });
