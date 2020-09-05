@@ -1,25 +1,19 @@
 {
-  "name": "neo-blessed",
+  "name": "@terminal-junkies/neo-blessed",
   "description": "A fork of the original blessed with bug fixes and maintenance.",
-  "author": "Christopher Jeffrey",
-  "contributors": [
-    {
-      "name": "Iuri Matias",
-      "email": "iuri.matias@gmail.com"
-    }
-  ],
+  "author": "Rajasegar Chandran",
   "scripts": {
     "lint": "eslint lib/"
   },
-  "version": "0.2.0",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "./lib/blessed.js",
   "bin": "./bin/tput.js",
   "preferGlobal": false,
-  "repository": "git://github.com/embark-framework/neo-blessed.git",
-  "homepage": "https://github.com/embark-framework/neo-blessed",
+  "repository": "git://github.com/terminal-junkies/neo-blessed.git",
+  "homepage": "https://github.com/terminal-junkies/neo-blessed",
   "bugs": {
-    "url": "http://github.com/embark-framework/neo-blessed/issues"
+    "url": "http://github.com/terminal-junkies/neo-blessed/issues"
   },
   "keywords": [
     "curses",
