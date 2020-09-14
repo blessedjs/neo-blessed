@@ -4,3 +4,4 @@ img/
 node_modules/
 .jshintrc
 .jscsrc
+pnpm-lock.yaml
