@@ -3,7 +3,8 @@
   "description": "A fork of the original blessed with bug fixes and maintenance.",
   "author": "Rajasegar Chandran",
   "scripts": {
-    "lint": "eslint lib/"
+    "lint": "eslint lib/",
+    "deploy": "git push && git push --tags && npm publish"
   },
   "version": "1.0.3",
   "license": "MIT",
