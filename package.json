@@ -1,20 +1,20 @@
 {
-  "name": "@terminal-junkies/neo-blessed",
+  "name": "@blessed/neo-blessed",
   "description": "A fork of the original blessed with bug fixes and maintenance.",
   "author": "Rajasegar Chandran",
   "scripts": {
     "lint": "eslint lib/",
     "deploy": "git push && git push --tags && npm publish"
   },
-  "version": "1.0.5",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "./lib/blessed.js",
   "bin": "./bin/tput.js",
   "preferGlobal": false,
-  "repository": "git://github.com/terminal-junkies/neo-blessed.git",
-  "homepage": "https://github.com/terminal-junkies/neo-blessed",
+  "repository": "git://github.com/blessedjs/neo-blessed.git",
+  "homepage": "https://github.com/blessedjs/neo-blessed",
   "bugs": {
-    "url": "http://github.com/terminal-junkies/neo-blessed/issues"
+    "url": "http://github.com/blessedjs/neo-blessed/issues"
   },
   "keywords": [
     "curses",
