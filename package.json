@@ -6,7 +6,7 @@
     "lint": "eslint lib/",
     "deploy": "git push && git push --tags && npm publish"
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "main": "./lib/blessed.js",
   "bin": "./bin/tput.js",
